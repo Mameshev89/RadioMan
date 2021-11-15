@@ -6,6 +6,7 @@ public class Radioman {
 
 
     public int getCurrentWave() {
+
         return currentWave;
     }
 
