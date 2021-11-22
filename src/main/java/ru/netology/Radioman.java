@@ -1,8 +1,8 @@
 package ru.netology;
 
 public class Radioman {
-    public int currentWave;
-    public int currentVolume;
+    private int currentWave;
+    private int currentVolume;
 
 
     public int getCurrentWave() {
@@ -29,7 +29,7 @@ public class Radioman {
 
     }
 
-    public void priveous() {
+    public void prev() {
         if (currentWave > 0) {
             currentWave--;
         } else {
